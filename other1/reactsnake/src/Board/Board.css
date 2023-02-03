@@ -1,0 +1,37 @@
+.board{
+    background-color: 40deg ;
+    animation-name: board;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+
+
+@keyframes board {
+    50%{box-shadow: 0px 2px 10px 10px rgb(0, 76, 131);}
+    0%{box-shadow: 0px 2px 10px 10px rgb(144, 0, 160);}
+    100%{box-shadow: 0px 2px 10px 10px rgb(0, 76, 131);}
+}
+
+.row{
+    height: 40px;
+}
+.cell{
+    width:  40px;
+    height: 40px;
+    display: inline-block;
+}
+.snake-cell{
+    background-color: green;
+}
+.food-cell{
+    background-color: red;
+    border-radius: 50%;
+}
+.button{
+    color: white;
+    background-color:darkcyan;
+    border: none;
+    width: 5vw;
+    height: 3vh;
+}
