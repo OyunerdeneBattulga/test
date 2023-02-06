@@ -99,10 +99,10 @@ function createpost(data) {
         console.log(res)
     })
 }
-function createposts() {
+function createposts(data) {
     data.map((item)=>{
         createpost(item);
     })
 }
 
-createposts();
+createposts(data);
